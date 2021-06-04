@@ -1,0 +1,36 @@
+footer {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  border: solid blue 1px;
+  height: 12vh;
+    ul li {
+    display: inline-block;
+    margin: 25px 10px 5px;
+    padding: 0 7px;
+    color: $texto;
+       a {
+       display: flex;
+       flex-flex: row nowrap;
+       justify-content: flex-end;}
+    }
+}
+
+
+.copy {
+  margin: auto;
+  margin-bottom: 13px;
+  padding: 5px;
+  font-size: 1rem;
+  text-align: center;
+  border: solid 1px blue; }
+
+
+@each $icono in spotify, youtube, instagram, twitter{
+  .#{$icono}-icon{
+    background-image: url(../img/#{$icono}.png);
+    list-style: none;
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+  }
+}
