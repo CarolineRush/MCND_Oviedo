@@ -1,5 +1,5 @@
 {
-  "name": "mcnd",
+  "name": "npm",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
@@ -16,5 +16,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Proyecto MCND\r Práctica con proyecto MCND",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolineRush/MCND_Oviedo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CarolineRush/MCND_Oviedo/issues"
+  },
+  "homepage": "https://github.com/CarolineRush/MCND_Oviedo#readme"
 }
