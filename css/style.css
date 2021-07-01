@@ -311,6 +311,9 @@ aside div {
     font-weight: 600;
     text-align: center; }
 
+.bord {
+  border-radius: 10px; }
+
 .display {
   flex-direction: column;
   justify-content: space-between;
