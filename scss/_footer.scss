@@ -1,7 +1,6 @@
 footer {
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  border: solid blue 1px;
   height: 12vh;
     ul li {
     display: inline-block;
@@ -11,26 +10,17 @@ footer {
        a {
        display: flex;
        flex-flex: row nowrap;
-       justify-content: flex-end;}
+       justify-content: flex-end;
+        img{
+          height: 35px;
+          }}
     }
 }
 
 
 .copy {
   margin: auto;
-  margin-bottom: 13px;
+  margin-bottom: 7px;
   padding: 5px;
   font-size: 1rem;
-  text-align: center;
-  border: solid 1px blue; }
-
-
-@each $icono in spotify, youtube, instagram, twitter{
-  .#{$icono}-icon{
-    background-image: url(../img/#{$icono}.png);
-    list-style: none;
-    background-size: 100%;
-    width: 35px;
-    height: 35px;
-  }
-}
+  text-align: center; }

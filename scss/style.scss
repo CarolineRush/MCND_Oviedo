@@ -42,8 +42,7 @@ h5 {
   letter-spacing: 1px;
   font-weight: 600;
   text-align: left;
-  margin-left: 10px;
-  margin-bottom: 50px;
+  margin:120px 0 50px 10px;
   animation-duration: 3s;
   animation-name: aparecer; }
 
@@ -58,6 +57,10 @@ h5 {
 
 .section h3, div p {
   font-family: 'Bitter', serif; }
+
+.nave.fixed-top{
+  background-color: $fondo;
+} 
 
 /*Sólo Index*/
 
@@ -96,14 +99,16 @@ h5 {
     font-size: 1.15rem;
     letter-spacing: 2px;
       .transf:hover {
-      transform: scale(1.2, 1.2);
+      transform: scale(1.2, 1.2); 
       transition: transform 3s;
       cursor: pointer;}
     } 
 }
+
+
 .center article {
   width: 100%;
-  margin: auto; }
+  margin: auto; } 
 
 /*Sólo Miembros*/
 
@@ -148,6 +153,11 @@ h5 {
   justify-content: flex-end; }
 
 /*Sólo Historia*/
+.blo{
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+}
 .historia__hr {
   width: 250px;
   margin-left: 20px; }
@@ -166,7 +176,7 @@ h5 {
   text-align: left;
   width: 400px;
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.20rem;
   letter-spacing: 2px;
   border: 1px;
   padding: 10px 19px;
@@ -184,17 +194,17 @@ h5 {
   text-align: center;
   font-size: 1.25rem;
   letter-spacing: 1px;
-    h5{
-      border:solid blue 1px; /*reever*/
-    }
 }
 
 .tabla__style {
   color: $fondo;
-  /*background-color: #ff3d03;*/
   background-image: linear-gradient(to top, $bgsecnd, $bgcolor);
-  margin: 10px;
-  font-size: 1rem; }
+  margin: 20px;
+  font-size: 1rem;
+  border:solid black 1px; 
+    tabla__style--disco{
+      margin-left: 50px;
+      } }
 
 .tabla__box tr th, td {
   box-sizing: border-box;
@@ -210,6 +220,10 @@ h5 {
   color: black;
   overflow: hidden; }
 
+.borr table{
+  border-width: 5px $fondo solid;
+}
+
 aside {
   height: 55vh; }
   aside div {
@@ -218,18 +232,16 @@ aside {
     justify-content: space-around;
     height: 100%;
     flex: 1;
-    margin: 10px 0 10px 35px; }
+    margin: 20px 0 10px 35px; }
 
 /*Sólo Galería*/
 .aboutH3 article h3 {
   text-align: center;
   font-family: 'Bitter', serif; }
 
-.sizeTodo {
-  width: 100%; }
 
 .sizeCarou {
-  width: 30%;
+  width: 20%;
   margin: auto; }
 
 /*Sólo Contacto*/
@@ -239,22 +251,25 @@ aside {
   width: 25rem;
   height: 19rem;
   padding: 20px;
-  margin: auto;
-  border: solid blue 1px; 
+  margin: auto; 
     p {
-    font-size: 1.25rem;
-    font-weight: 700;
+    font-size: 1.20rem;
+    font-weight: 600;
     text-align: center; }
+  }
+
+.display{
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
 }
-
-
 .aboutForm {
   display: inline-block;
   width: 25rem;
   height: 43rem;
   padding: 20px;
   margin: 0 30px;
-  border: solid blue 1px;
     p {
     text-align: left;
     line-height: 30px;
